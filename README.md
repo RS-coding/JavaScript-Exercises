@@ -3,6 +3,7 @@
 
 Beginner Friendly   
 Some are simple logic exercises others are mini-projects.
+[Demo](https://rs-coding.github.io/JavaScript-Exercises/)
 
 Let's Go!
 
@@ -17,6 +18,6 @@ Let's Go!
   _DOM [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_  
   _Form Input [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_  
 
-**Resolution:** [Code]() [Demo]()
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/6220a12a42a17b04c36106675baf61ab9ee2acff/solutions/01exercise.html) 
 
 
