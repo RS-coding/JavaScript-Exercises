@@ -75,8 +75,10 @@
             background:transparent;
             padding:.5rem 1rem;
             border-radius:10px;
+            color:white;
         }
 
+    
         input:focus{
             outline:transparent;
         }
@@ -96,6 +98,7 @@
            margin-top:3rem;
            color:white;
            padding:2rem;
+           letter-spacing:.2rem;
          
        }
     </style>
@@ -131,7 +134,7 @@
              let number2 = document.getElementById('number2')
              let btn = document.getElementById('button')
             
-
+             number1.focus()
 
              const letsMath = function(n1, n2, simbolo){
 
@@ -168,10 +171,10 @@
                 let msg = "";
                 let output = document.querySelector('#output');
 
-                msg += ' A soma é : ' + plus + '<br>';
-                msg += 'A subtração é: ' + minus +'<br>';
-                msg += 'A multlipy é: ' + multiply + '<br>';
-                msg += 'A divide é: ' + divide + '<br>';
+                msg += ' The addition is: ' + plus + '<br>';
+                msg += ' The subtraction is: ' + minus +'<br>';
+                msg += 'The multiplication is: ' + multiply + '<br>';
+                msg += 'The division is: ' + divide + '<br>';
                 
                 output.innerHTML = msg;
                 number1.value = '';
