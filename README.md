@@ -29,6 +29,7 @@ Let's Go!
  - create a function that randomly draws a number from 0 to 1
  - If the number drawn is 0, whoever chooses the lowest number wins
  - If the number drawn is 1, whoever chooses the highest number wins
+ - Show the result message in an output(div, paragraph)
 
  #### _Subjects Tips:_   
   _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_  
