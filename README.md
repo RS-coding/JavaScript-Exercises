@@ -3,7 +3,7 @@
 
 Beginner Friendly   
 Some are simple logic exercises others are mini-projects.
-[Demo]()
+[Demo](https://rs-coding.github.io/JavaScript-Exercises/)
 
 Let's Go!
 
