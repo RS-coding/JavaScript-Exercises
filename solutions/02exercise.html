@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffle</title>
+</head>
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+    *,
+    *::before,
+    *::after{
+        margin:0;
+        padding:0;
+    }
+
+    
+    html{
+        font-family: 'Open sans',sans-serif;
+    }
+
+    body{
+        height:100vh;
+        background: #FC5C7D;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6a82fbd0, #fc5c7cb4);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6a82fbc7, #fc5c7cbb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    button,a{
+     cursor:pointer;
+    }
+
+
+    .container{
+        padding:2rem; 
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center; 
+        width:100%;
+    }
+    
+    .container-inputs{
+        width:33%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding:2rem;
+    }
+
+    .items{
+        padding:1rem 0;
+    }
+
+    label{
+        margin-right:.5rem;
+    }
+
+    input{
+        padding:.8rem 1.2rem;
+        background:transparent;
+        border:2px solid rgba(0, 0, 0, 0.877);
+        border-radius:15px;
+    }
+
+     input:focus{
+        outline:transparent;
+    }
+
+    button{
+        padding: 1rem 2rem;
+        background-color:#4052acd3 ;
+        font-weight: 600;
+        border:none;
+        text-transform: uppercase;
+        letter-spacing:.2rem;
+    }
+
+    #output{
+        margin:2rem;
+    }
+
+</style>
+<body>
+    <div class="container">
+
+        <h1>Raffle</h1>
+        <h3>Choose a number </h3>
+
+        <div class="container-inputs">
+            <div class="items">
+            <label for="player1">Player 1</label>
+            <input type="text" name="" id="player1">
+        </div>
+        <div class="items">
+            <label for="player2">Player 2</label>
+            <input type="text" name="" id="player2">
+        </div>
+        </div>
+        
+        <button id="btn">Who wins?</button>
+
+        <div id="output">
+
+        </div>
+    </div>
+
+    <script>
+        ;(function(){
+
+            let player1 = document.getElementById('player1')
+            let player2 = document.getElementById('player2')
+            let btn = document.getElementById('btn')
+            let output = document.getElementById('output')
+
+            player1.focus()
+
+            //function that creates a random number 0 or 1
+            const randomNumber = function(){
+                return Math.floor(Math.random() * 2)
+            }
+
+            //console.log(randomNumber())
+
+            const finalMessage = function(msg){
+                return output.innerHTML = msg
+            }
+
+            const showResult = function(){
+
+                let computerNumber = randomNumber()
+                let player1Number = parseInt(player1.value)
+                let player2Number = parseInt(player2.value)
+
+                if(isNaN(player1Number) || isNaN(player2Number)){
+                        alert('enter a valid number')
+                        player1.value = '';
+                        player2.value='';
+                        player1.focus()
+                        return
+                 }
+
+                 console.log()
+
+                 if(player1Number === player2Number){
+                     finalMessage('match ended in a draw')
+                 }else{
+                    if(computerNumber === 0){
+                        player1Number < player2Number ? finalMessage('player 1 wins') : finalMessage('player 2 wins')
+                    }else{
+                         player1Number > player2Number ? finalMessage('player 1 wins') : finalMessage('player 2 wins')
+                    }
+                 }
+
+                 
+
+                player1.value = '';
+                player2.value='';
+                player1.focus()
+                
+               
+            }
+
+            btn.addEventListener('click', showResult)
+
+        }())
+    </script>
+</body>
+</html>
