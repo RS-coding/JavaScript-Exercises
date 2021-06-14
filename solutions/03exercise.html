@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutiplication Table</title>
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <style>
+        *,
+        *::before,
+        *::after{
+            margin:0;
+            padding:0;
+        }
+
+        html{
+            font-family: 'Pangolin', cursive;
+        }
+
+        body{
+            background-image: url("../images/quadrilha.jpg");
+            display:flex;
+            justify-content:center;
+        }
+        .container{
+            padding:5rem;
+        }
+
+        .input-container{
+            margin-top:4rem;
+        }
+
+        input{
+            margin-top:2rem;
+            padding:.5rem 1rem;
+            border:2px solid rgb(100, 170, 182);
+        }
+
+        button{
+            padding:.6rem 2rem;
+            border:none;
+            background-color:rgb(100, 170, 182);
+        }
+
+        .result{
+            margin-top:4rem;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplication Table</h1>
+
+        <div class="input-container">
+             <h3>Choose a number to multiply</h3>
+            <input id="numberSelected" type="text" placeholder="number">
+            <button id="add">enter</button>
+        </div>
+       
+
+        <div id="output" class="result">
+
+        </div>
+
+    </div>
+    
+    <script>
+        let number = document.getElementById("numberSelected")
+        const btn = document.getElementById("add")
+        let output = document.getElementById("output")
+
+
+        const outputMessage = function(msg){
+            output.innerHTML = msg
+        }
+
+        btn.addEventListener('click', function(){
+            let valueNumber = parseInt(number.value)
+             let message = ''
+            for(var i = 1 ; i<= 10 ; i++){
+                
+                let result = valueNumber * i
+                message+= `${valueNumber} X ${i} = ${result}<hr>
+                `
+                
+            }
+              outputMessage(message)  
+              number.value=''
+              number.focus()
+        })
+
+    </script>
+</body>
+</html>
