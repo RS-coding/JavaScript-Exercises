@@ -44,3 +44,19 @@ _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/02exercise.html)
 
 ---
+
+### 03 - Exercise
+
+#### **Task:**
+
+- Create a multiplication Table for the number chosen by the user -> (number of the user x (1 to 10))
+- Add an input and a button 
+- get the number value of the input and do the math making a loop from 1 to 10
+- show it in an output
+
+#### _Subjects Tips:_
+
+_Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/03exercise.html)
+
