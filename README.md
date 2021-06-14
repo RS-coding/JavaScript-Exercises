@@ -60,3 +60,17 @@ _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/03exercise.html)
 
+---
+
+### 04 - Exercise
+
+#### **Task:**
+
+- Show in an output the years  between 1004 to 2021 included, jumping every 4 years.
+- example(1004,1008,1012..)
+
+#### _Subjects Tips:_
+
+_Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/04exercise.html)
