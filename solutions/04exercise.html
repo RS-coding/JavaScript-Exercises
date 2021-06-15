@@ -44,7 +44,7 @@
         }
 
         #output{
-            padding:4rem;
+            padding:4rem 15rem;
         }
 
       
@@ -69,8 +69,9 @@
 
         btn.addEventListener('click', function(){
             let result = ''
-            for( var i = 1004; i <= 2021 ; i++ ){
-                result += i + ' '
+            for( var i = 1004; i <= 2021 ; i+=4 ){
+                
+                result += i + '  '
                 message(result)
             }
         })
