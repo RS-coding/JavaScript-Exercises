@@ -34,7 +34,7 @@ Let's Go!
 
 #### _Subjects Tips:_
 
-_Number methods [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_
+_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/6220a12a42a17b04c36106675baf61ab9ee2acff/solutions/01exercise.html)
 
@@ -53,7 +53,7 @@ _Number methods [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 
 #### _Subjects Tips:_
 
-_Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_
+_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/02exercise.html)
 
@@ -70,7 +70,7 @@ _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 
 #### _Subjects Tips:_
 
-_Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
+_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/03exercise.html)
 
@@ -85,6 +85,6 @@ _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/
 
 #### _Subjects Tips:_
 
-_Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
+_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/04exercise.html)
