@@ -88,3 +88,4 @@ _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addE
 _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/04exercise.html)
+  
