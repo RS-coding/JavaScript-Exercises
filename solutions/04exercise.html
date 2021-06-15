@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <style>
+        *,
+        *::before,
+        *::after{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+        }
+
+        html{
+            font-family: 'Pangolin', cursive;
+        }
+
+        .container{
+            display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        button{
+            background-color:tomato;
+            border:none;
+            padding:1rem 3rem;
+            margin-top:2rem;
+            cursor:pointer;
+        }
+
+        #output{
+            padding:4rem;
+        }
+
+      
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Show all the numbers between 1004 to 2021 included, jumping every 4 years </h1>
+        <button id="buttonEnter">enter</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script>
+        const btn = document.getElementById("buttonEnter")
+        const output = document.getElementById("output")
+
+        const message = function(msg){
+            output.innerHTML = msg
+        }
+
+        btn.addEventListener('click', function(){
+            let result = ''
+            for( var i = 1004; i <= 2021 ; i++ ){
+                result += i + ' '
+                message(result)
+            }
+        })
+    </script>
+</body>
+
+</html>
+
