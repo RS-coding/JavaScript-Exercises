@@ -89,3 +89,18 @@ _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addE
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/04exercise.html)
   
+---
+
+### 05 - Exercise
+
+#### **Task:**
+-Show in an output the leap years between 1800 to 2400
+- It is very similiar to the 04 exercise but there is another rules
+- leap years are  multiples of 4  , they aren't multiples of 100(1900 is not a leap year) , and they are multiples of 400(200 is a leap year)
+
+
+#### _Subjects Tips:_
+_Leap years: [link](https://kalender-365.de/leap-years.php)_,_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/04exercise.html)
+  
