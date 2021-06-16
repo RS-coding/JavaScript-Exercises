@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leap years</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <style>
+        *,
+        *::before,
+        *::after{
+            margin:0;
+            padding:0;
+        }
+        html{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            background: #de6363;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            display:flex;
+            justify-content:center;
+        }
+
+        .container{
+            margin:5rem 4rem;
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        button{
+            border:none;
+            margin-top:4rem;
+            padding: 1rem 5rem;
+            border: 2px solid #de6363;
+            color:#de6363;
+            align-self: center;
+            cursor: pointer;
+        }
+
+        #output{
+            margin:2rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Show all the Leap Years between 1800 to 2400</h1>
+        <button id="btn">Enter</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script>
+        const btn = document.getElementById('btn')
+        const output = document.getElementById('output')
+
+
+        const message = function(msg){
+            output.innerHTML = msg
+        }
+
+
+        btn. addEventListener('click',function(){
+            let year = 1800
+            let result = ''
+
+            while(year <= 2400){
+                //if it is not multilpe of 100 and it is multiple of 400
+                if(!(year % 100 === 0) || (year % 400 === 0)){       
+                    result+= year + ' | '
+                }else{
+                    result+= 'Not a lead year' + ' | '
+                }
+
+                year +=4
+            }
+
+            message(result)
+
+            
+        })
+
+
+    </script>
+</body>
+</html>
