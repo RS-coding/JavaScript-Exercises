@@ -104,3 +104,23 @@ _Leap years: [link](https://kalender-365.de/leap-years.php)_,_Events [link](http
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/05exercise.html)
   
+ ---
+
+### 06 - Exercise
+
+#### **Task:**
+- create a mini math calculator
+- display a prompt box and four buttons for the four operatos (multiple, divide, add, substract)
+- when open the browser it will imidiatle open the prompt box and ask to user to giti a first number
+- then the user will click in one of the buttons 
+- when clicked in one of the buttons , it will open another prompt box to ask for other number \
+- when closed the prompt box it will show the result
+- by clicking in another button it will ask again for another number and will do the math of the result of the first operation with the new number 
+
+
+
+#### _Subjects Tips:_
+_Prompt [link](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)_, _Number [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/06exercise.html)
+  
