@@ -109,12 +109,12 @@
       const calculateArea = function(width, height){
             if(width === undefined || height === undefined){
                 throw new Error('you need to enter two numbers')
-                return
+               
             }
 
             if(isNaN(width) || isNaN(height)){
                 throw new Error ('Write only numbers')
-                return
+               
             }
 
             return width * height
@@ -123,19 +123,20 @@
      
        let result = calculateArea(number1,number2)
 
-      const showOutput = function(msg){
-         output.innerHTML = msg
+      const showOutput = function(msg){ 
+            output.innerHTML = msg
       }
 
       const showAlert = function(msg){
-        alert(msg)
+            alert(e)
       }
 
    
       buttons.addEventListener('click', function(e){
 
-             if(e.target.className === 'btn-output' ){
-                showOutput(`the result is ${result}`)
+             if(e.target.className === 'btn-output' ){8
+                    showOutput(`the result is ${result}`)
+                
             }else if(e.target.className === 'btn-alert'){
                 showAlert(`the result is ${result}`)
             }else{

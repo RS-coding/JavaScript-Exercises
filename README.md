@@ -8,19 +8,17 @@ Some are simple logic exercises others are mini-projects.
 
 Let's Go!
 
-
-
 #### whoever wants to practice and contribute with new solutions:
+
 - click on **fork** button
 - copy the **url** of the document
 - at your terminal write **git clone <url>** to download and work locally
-- do the exercises in your code editor 
+- do the exercises in your code editor
 - save the files exactly has they are with the same titles as mine
-- using the commands **git add .**  and **git commit -m "text"**
+- using the commands **git add .** and **git commit -m "text"**
 - after saving to your local repository do a **git push origin main** to your github repository(forked file based on mine)
 - go to my original project and make a **"pull request"**
 - don't forget to write the necessary comments about what you did differently from what I did and what you think would be better.
-
 
 ---
 
@@ -34,7 +32,7 @@ Let's Go!
 
 #### _Subjects Tips:_
 
-_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_
+_Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/6220a12a42a17b04c36106675baf61ab9ee2acff/solutions/01exercise.html)
 
@@ -53,7 +51,7 @@ _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addE
 
 #### _Subjects Tips:_
 
-_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_
+_Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/02exercise.html)
 
@@ -64,13 +62,13 @@ _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addE
 #### **Task:**
 
 - Create a multiplication Table for the number chosen by the user -> (number of the user x (1 to 10))
-- Add an input and a button 
+- Add an input and a button
 - get the number value of the input and do the math making a loop from 1 to 10
 - show it in an output
 
 #### _Subjects Tips:_
 
-_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
+_Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/03exercise.html)
 
@@ -80,47 +78,64 @@ _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addE
 
 #### **Task:**
 
-- Show in an output the years  between 1004 to 2021 included, jumping every 4 years.
+- Show in an output the years between 1004 to 2021 included, jumping every 4 years.
 - example(1004,1008,1012..)
 
 #### _Subjects Tips:_
 
-_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
+_Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _Number methods: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/04exercise.html)
-  
+
 ---
 
 ### 05 - Exercise
 
 #### **Task:**
--Show in an output the leap years between 1800 to 2400
-- It is very similiar to the 04 exercise but there is another rules
-- leap years are  multiples of 4  , they aren't multiples of 100(1900 is not a leap year) , and they are multiples of 400(200 is a leap year)
 
+-Show in an output the leap years between 1800 to 2400
+
+- It is very similiar to the 04 exercise but there is another rules
+- leap years are multiples of 4 , they aren't multiples of 100(1900 is not a leap year) , and they are multiples of 400(200 is a leap year)
 
 #### _Subjects Tips:_
-_Leap years: [link](https://kalender-365.de/leap-years.php)_,_Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_
+
+_Leap years: [link](https://kalender-365.de/leap-years.php)_, _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _Form Input: [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)_, _Loops: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)_, _Conditionals: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/05exercise.html)
-  
- ---
+
+---
 
 ### 06 - Exercise
 
 #### **Task:**
+
 - create a mini math calculator
 - display a prompt box and four buttons for the four operatos (multiple, divide, add, substract)
 - when open the browser it will imidiatle open the prompt box and ask to user to giti a first number
-- then the user will click in one of the buttons 
+- then the user will click in one of the buttons
 - when clicked in one of the buttons , it will open another prompt box to ask for other number \
 - when closed the prompt box it will show the result
-- by clicking in another button it will ask again for another number and will do the math of the result of the first operation with the new number 
-
-
+- by clicking in another button it will ask again for another number and will do the math of the result of the first operation with the new number
 
 #### _Subjects Tips:_
-_Prompt [link](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)_, _Number [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _Events [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
+
+_Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Prompt: [link](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)_, _Number: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/06exercise.html)
-  
+
+---
+
+### 07 - Exercise
+
+#### **Task:**
+
+- ask to the user to digit two numbers that represents the width and the length of a rectangle
+- show in the browser the area of the rectangle in an output and in an alert by creating two buttons for that purpose
+- throw error if the user insert an invalid data ( not a number or empty )
+
+#### _Subjects Tips:_
+
+_Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Prompt: [link](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)_, _Number: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _ Throw Error: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/06exercise.html)
