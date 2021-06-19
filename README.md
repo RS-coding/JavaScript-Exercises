@@ -138,4 +138,4 @@ _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 
 _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Prompt: [link](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)_, _Number: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _ Throw Error: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)_
 
-**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/06exercise.html)
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/07exercise.html)
