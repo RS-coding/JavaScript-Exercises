@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day of week</title>
+
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+        *,
+        *::before,
+        *::after{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        html{ font-family: 'Roboto', sans-serif;}
+
+        body{
+            width:100%;
+            min-height:100vh;
+            background: #1e3c72;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #output{
+            font-size:4rem;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div id="output"></div>
+    </div>
+
+    <script>
+
+        const output = document.getElementById('output')
+
+        const message = function(msg){
+            output.innerHTML = msg
+        }
+
+
+        let weekDays =['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
+
+        let today = new Date()
+
+        let todayDay = today.getDay()
+        
+
+        const getTheDay = function(day){
+            
+            let currentDay = ''
+
+            switch(day){
+                case 0:
+                    currentDay = weekDays[0]
+                    break
+                case 1:
+                    currentDay = weekDays[1]
+                    break
+                case 2:
+                    currentDay = weekDays[2]
+                    break
+                case 3:
+                    currentDay = weekDays[3]
+                    break
+                case 4:
+                    currentDay = weekDays[4]
+                    break
+                case 5:
+                    currentDay = weekDays[5]
+                    break
+                case 6:
+                    currentDay = weekDays[6]
+                    
+
+            }
+
+            return currentDay
+        }
+
+        let result =getTheDay(todayDay)
+        message(`Today is  ${result}`)
+
+       
+
+
+    </script>
+</body>
+</html>
