@@ -139,3 +139,17 @@ _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _Prompt: [link](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)_, _Number: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)_, _Events: [link](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_, _ Throw Error: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/07exercise.html)
+
+---
+
+### 08 - Exercise
+
+#### **Task:**
+
+- using Date methods show in an output the Day of the Week ( Sunday,Monday,Tuesday,Wednesday,Thursday,Friday or Saturday) that corresponds to today.
+
+#### _Subjects Tips:_
+
+_Date: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)_, _Switch: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)_, _Array: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)_, _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/08exercise.html)
