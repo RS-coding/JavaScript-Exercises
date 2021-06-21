@@ -153,3 +153,20 @@ _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
 _Date: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)_, _Switch: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)_, _Array: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)_, _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/08exercise.html)
+
+---
+
+### 09 - Exercise
+
+#### **Task:**
+
+- Create a mini program with an input and 3 buttons.
+- the program asks to the user to digit 10 random numbers (input and add button)
+- then the user click in the second number that is responsable to do the sum only of Even Numbers
+- the third button resets everything
+
+#### _Subjects Tips:_
+
+_Detecting Odd and Even: [link](https://runestone.academy/runestone/books/published/StudentCSP/CSPTurtleDecisions/oddEven.html)_, _Array: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)_, _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/09exercise.html)

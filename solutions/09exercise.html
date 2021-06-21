@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The sum of the Even Numbers </title>
+</head>
+
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+    *,
+    *::before,
+    *::after{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-family: 'Roboto', sans-serif;
+        font-size:62.5%;
+    }
+
+    body{
+        background: #6190E8;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        width:100%;
+        min-height:100vh;
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:1.6rem;
+    }
+
+    .container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:30%;
+        border:1px solid rgba(255, 255, 255, 0.815);
+        padding:2rem;
+    }
+
+    input{
+        width:50%;
+        margin:1rem 0;
+        padding:.5rem .8rem;
+        border:1px solid rgba(255, 255, 255, 0.815);
+        color:white;
+        background-color:transparent;
+    }
+
+    .buttons{
+        margin-top:3rem;
+        width:50%;
+        display:flex;
+        justify-content: space-evenly;
+
+    }
+
+    .addNumbers-container{
+        margin-top:3rem;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    button{
+        border:none;
+        padding:2rem 2rem;
+        color:white;
+        cursor:pointer;
+        margin:0 .5rem;
+    }
+
+    .add{
+        padding:.5rem;
+    }
+
+    #add{
+        background-color:cornflowerblue;
+    }
+
+    #doMath{
+        background-color: darkblue;
+    }
+
+    #restart{
+        background-color:rgb(187, 198, 235);
+        color:black;
+    }
+
+    #output{
+        min-height:7rem;
+        color:white;
+        font-size:6rem;
+        margin-top:3rem;
+    }
+
+    
+
+
+</style>
+<body>
+    <div class="container">
+        <h1>Add 10 Random Numbers</h1>
+        <div class="addNumbers-container">
+            <input  id = "inputNumbers" type="text">
+            <button class="add" id="add">Add</button>
+        </div>
+
+        <div class="buttons">
+              
+              <button id="doMath">Sum Even Numbers</button>
+              <button id="restart">restart</button>
+        </div>
+      
+        <div id="output"></div>
+    </div>
+
+    <script>
+
+        const input = document.getElementById('inputNumbers')
+        const addButton = document.getElementById('add')
+        const doMathButton = document.getElementById('doMath')
+        const restartButton = document.getElementById('restart')
+        const output = document.getElementById('output')
+
+        let numbers = []
+
+        input.focus()
+
+        addButton.addEventListener('click', function(){
+            numbers.push(input.value)
+            input.value = ''
+            output.innerHTML = ''
+            input.focus()
+        })
+
+
+        const message = function(msg){
+            output.innerHTML = msg
+        }
+
+        //generic function that calculate even numbers
+        const sumEvenNumbers = function(arr){
+
+            let add = 0
+
+            arr.forEach ( element =>{
+                if(!isNaN(element) && element % 2 === 0){
+                    //everything that comes for the interface is a string so we have 
+                    //to put element inside Number() method to define a number
+                    return add += Number(element);
+                }
+            })
+
+            return add
+        }
+
+      
+
+        doMathButton.addEventListener('click', function(){
+            let sumEven = sumEvenNumbers(numbers)
+            message(sumEven)
+
+        })
+
+        restartButton.addEventListener('click',function(){
+            output.innerHTML = ''
+            input.focus()
+            numbers = []
+        })
+       
+
+    
+    </script>
+</body>
+</html>
