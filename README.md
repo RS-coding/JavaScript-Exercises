@@ -11,7 +11,7 @@ Let's Go!
 
 #### whoever wants to practice and contribute with new solutions:
 
-- go to the Dev branch and fork that branch by clicking on **fork** button
+- go to the **dev** branch and fork that branch by clicking on **fork** button
 - copy the **url** of the document
 - at your terminal write **git clone <url>** to download and work locally
 - do the exercises in your code editor
