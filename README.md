@@ -7,8 +7,10 @@ Some are simple logic exercises others are mini-projects.
 [Demo](https://rs-coding.github.io/JavaScript-Exercises/)
 
 Let's Go!
-### OpenSource
 
+-----
+
+#### Note:
 #### whoever wants to practice and contribute with new solutions:
 
 - go to the **dev** branch and fork that branch by clicking on **fork** button
