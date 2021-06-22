@@ -8,7 +8,9 @@ Some are simple logic exercises others are mini-projects.
 
 Let's Go!
 
-###OpenSource
+---
+
+#### Note:
 
 #### whoever wants to practice and contribute with new solutions:
 
