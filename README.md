@@ -173,3 +173,19 @@ _Date: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
 _Detecting Odd and Even: [link](https://runestone.academy/runestone/books/published/StudentCSP/CSPTurtleDecisions/oddEven.html)_, _Array: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)_, _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
 
 **Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/09exercise.html)
+
+---
+
+### 10 - Exercise
+
+#### **Task:**
+
+- create a input, button  and a div  with id output on html
+- Create an Object in JS named 'Product' with 3 properties : name of the product, stock , price , and a method buy() that takes as an argument 'qtd' -(quantities).
+-Each time the user click on a button to add an article to buy it the stock property is reduced. So the method buy() is responsable to change the value of the property stock.
+- show in the div 'output' the infomation of the product including the stock each time a user clicks on the button add.
+#### _Subjects Tips:_
+
+_Object: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)_, _Functions: [link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)_, _DOM: [link](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)_
+
+**Resolution:** [Code](https://github.com/RS-coding/JavaScript-Exercises/blob/main/solutions/10exercise.html)
