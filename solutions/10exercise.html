@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10-exercise - product object</title>
+
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+        *,
+        *::before,
+        *::after{
+            margin:0;
+            padding:0;
+        }
+        html{
+           font-size:62.5%;
+        }
+        body{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background: #CC95C0;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            width:100%;
+            min-height:100vh;
+
+            display:flex;
+            justify-content:center;
+            
+        }
+
+        .container{
+            margin-top:10rem;
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+        }
+
+        h1{
+           margin:4rem 0rem;
+           font-family: 'Poppins', sans-serif;
+           font-size:8rem;
+          
+           text-transform: uppercase;
+           letter-spacing:.2rem;
+
+           background-image: linear-gradient(45deg, #E684AE, #79CBCA, #77A1D3); 
+            background-size:100%;
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: black;
+            
+
+        }
+
+        .img-container{
+            width:50rem;   
+            border-radius:2rem;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.253);  
+            overflow:hidden;
+        }
+
+        img{
+            width:100%;  
+        }
+
+        .quantity-container{
+            width:60%;
+            margin:4rem 0;
+            display:flex;
+            align-items:center;
+            justify-content:flex-end;
+         
+        }
+
+        label{
+            font-size:1.5rem;
+            font-family:sans-serif;
+        }
+
+        #quantities{
+            width:60px;
+            padding: 0.2rem ;
+            margin:0rem .8rem;
+            background-color:transparent;
+            color:white;
+            border:2px solid rgba(255, 255, 255, 0.801);
+        }
+
+        .btn{
+            padding:.4rem 1.2rem;
+            background-color:rgb(31, 157, 167);
+            border:none;
+            color:white;
+            cursor:pointer;
+        }
+
+        #output{
+            background-color:white;
+            min-height:10rem;
+            width:65%;
+
+            display:flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content:center;
+        }
+
+        h3{
+            font-size:2rem;
+            padding:.3rem 0;
+            margin-bottom:1.2rem;
+        }
+
+        p{
+            font-size:1.2rem;    
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Glow star brand</h1>
+        <div class="img-container">
+            <a href='https://www.freepik.com/photos/woman'><img src="../images/pomade.jpg" alt="Woman photo created by Racool_studio - www.freepik.com"></a>
+        </div>
+        <div class="text-container">
+            <h2 id="productTitle"></h2>
+            <p id="productInfo"></p>
+        </div>
+        <div class="quantity-container">
+            <label for="quantities">Quantity:</label>
+            <input id="quantities" type="number">
+            <button class="btn" id="add">add</button>
+        </div>
+        
+        <div id="output"></div>
+    </div>
+
+    <script>
+        const output = document.querySelector('#output')
+        const productTitle = document.querySelector('#productTitle')
+        const productInfo = document.querySelector('#productInfo')
+        const input = document.querySelector('#quantities')
+        const btnAdd = document.querySelector('#add')
+
+        const product = {
+            name : 'lipstick',
+            stock: 10,
+            price:'25€',
+            purchase: function(qtd){
+                if(!qtd) {qdt = 1}
+                return this.stock = this.stock - qtd
+            }
+        }
+
+        const message = function(msg){
+            output.innerHTML = msg
+        }
+
+        let templateMessage = `<h3>Name: ${product.name}</h3>
+        <p>Price: ${product.price}</p>
+        <p>stock: ${product.stock}</p>`
+
+        message(templateMessage)
+
+        btnAdd.addEventListener('click', function(){
+           product.purchase(input.value)
+           message(templateMessage)
+
+            if(product.stock <= 0){
+                 message('there is no stock.try later')
+            } 
+
+           input.value = ''
+           input.focus()
+        })
+
+    </script>
+</body>
+</html>
